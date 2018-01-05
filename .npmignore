@@ -8,7 +8,6 @@ development
 tools
 .babelrc
 .editorconfig
-.eslintrc
 .gitattributes
 .npmignore
 webpack.config.dev.js
