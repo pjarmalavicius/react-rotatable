@@ -12,10 +12,10 @@ cache:
 script:
  - npm run lint --max-warnings=0
 
-#deploy:
-#  - provider: npm
-#    email: "paulius.jarmalavicius@gmail.com"
-#    api_key:
-#      secure: E8+24K9sb78doBTpKIV3bsM/qWdB4HsAUMuX68UJeA5w9l+bF2S1X8l0Lcd2MW9badbuYFpmKfk0qOGusCIXUY7WmGZxzhWQUwRQzMEml6IbvbxTYrPYRrVsJOxYs+53ahebJezAUcB8wLgHqP107tFA1kirv5bagk8zFAQt4k1iyMuncv11P7TNpymvazLKl0jJZhsbmJj7SCPgyXLOiXBWz+wgt/7VfuqQax/TPhQFlNFWWSitFjY/ZBCaKZLKx8jlNe1dBh2uyyYkcS8fViFNdG2Ri+0qi30RT4FWCNEwJ3lU/q8bIEght+z23AMuIW+NN9v7j2KZZm1Gt7OW3suA1+EpQ08f6+15rnKu8DsYbBKCxH3FMsJ+Rw9SXnAEcjg7++YiKbXQjaOP8ROebogCuiVt4yxQjZ9nCO0DYEi4rlmPJ22RjSKHFk4Yafgr/W8/RY9ci91+GGuPoT7GIWbbboZhTcz6FPKnAJVboRO0rqFsAp6/AwP6Hc1seZdPvUhVyhM1AeITEnTiFVNz/FV1Cblh400ZPJ/W1tSXhpkDTYbRsD53efRkWO6wRDcWXbzytqpfMgZZbyv0ku/sYPLp+tH2IpqjCkyTDCTQKMcdyzmezz4I5mNBZnhbbCrBydXtC2Hv9MtyS/e6Y0PiqR99mdHr69MVpcd2b/bT/bs=
-#    on:
-#      tags: true
+deploy:
+  - provider: npm
+    email: "paulius.jarmalavicius@gmail.com"
+    api_key:
+      secure: fIpuOhuU6P1EHjnU9DvliaBEmm7ePyJlAPUL/K7EUhiLaGptzz3e06k6XgAQ9mJtu8vZdJDbiMECxWIjm7tzQNyOnr5+ITl0POzphtNna3NcbkENcBA1nRIgQpRwDZje9xu4DNsTucf94QYD1W/1KishTYiSukdB2/3/kEgjhg2KSGyyPHseFzPIqmcWwGpzdeY+OHpwkA2R65gZ3vQUiWDeYu1Q1UT7TQeGgGv570F6PqQxnQXibYvJOfBdTawmDXTnU7Tn5csaod5p43KpkNBmdzchNAnpTOvZj4gbbYfykFz9o8yxQ3tAmrs4lJH/+Rn0EvHxMvOUbCdgFIMnCeFWUM3GoNT/2LVX+Ltjfn8I9uXDSbf524FjStrKUGX/cAabQS6waqJl6/doPxahfWK9MB3vNV5vWCa706U89c3z1ZT4cIPM27zAEKnRGHu1awqPvL0+ClvJ1g2K9AkJTnChjmCKyoCLYJF/YBYnbOMdIqfmH/3dkFyyUkkxWqSUfSz0PiNFNcZZG5q3DqBYt0jGtTAmyIHYoj2ARYHJncIpo+gE5cT8MSa7yHlZh5/2ZaegQYoC+hVX9LBIxGOx3MaGd2BoFQ84glhQep1+E5imrx+LmwEZuX/pllMQaJA5obq5inwUG8JtBI569JVYKk2vR7q0slG2BkKvbTlNy90=
+    on:
+      tags: true
