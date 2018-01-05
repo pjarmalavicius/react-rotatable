@@ -1,4 +1,4 @@
-react-rotatable
+react-rotatable [demo](https://pjarmalavicius.github.io/react-rotatable/)
 =========================
 
 Rotatable component implemented with react. Works even element has translate transformation :)
