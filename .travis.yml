@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - '6'
+
+cache:
+  yarn: true
+  directories:
+    - "$HOME/.npm"
+    - "$HOME/.pip/cache"
+    - "$HOME/.yarn-cache"
+
+script:
+ - npm run lint --max-warnings=0
+
+#deploy:
+#  - provider: npm
+#    email: "paulius.jarmalavicius@gmail.com"
+#    api_key:
+#      secure: E8+24K9sb78doBTpKIV3bsM/qWdB4HsAUMuX68UJeA5w9l+bF2S1X8l0Lcd2MW9badbuYFpmKfk0qOGusCIXUY7WmGZxzhWQUwRQzMEml6IbvbxTYrPYRrVsJOxYs+53ahebJezAUcB8wLgHqP107tFA1kirv5bagk8zFAQt4k1iyMuncv11P7TNpymvazLKl0jJZhsbmJj7SCPgyXLOiXBWz+wgt/7VfuqQax/TPhQFlNFWWSitFjY/ZBCaKZLKx8jlNe1dBh2uyyYkcS8fViFNdG2Ri+0qi30RT4FWCNEwJ3lU/q8bIEght+z23AMuIW+NN9v7j2KZZm1Gt7OW3suA1+EpQ08f6+15rnKu8DsYbBKCxH3FMsJ+Rw9SXnAEcjg7++YiKbXQjaOP8ROebogCuiVt4yxQjZ9nCO0DYEi4rlmPJ22RjSKHFk4Yafgr/W8/RY9ci91+GGuPoT7GIWbbboZhTcz6FPKnAJVboRO0rqFsAp6/AwP6Hc1seZdPvUhVyhM1AeITEnTiFVNz/FV1Cblh400ZPJ/W1tSXhpkDTYbRsD53efRkWO6wRDcWXbzytqpfMgZZbyv0ku/sYPLp+tH2IpqjCkyTDCTQKMcdyzmezz4I5mNBZnhbbCrBydXtC2Hv9MtyS/e6Y0PiqR99mdHr69MVpcd2b/bT/bs=
+#    on:
+#      tags: true
