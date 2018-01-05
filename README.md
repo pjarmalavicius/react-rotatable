@@ -46,13 +46,17 @@ export default App;
 
 ## Props
 
-#### onRotateStart: callback function called on start rotating. Gets arguments: event, dom element, current angle.
+#### onRotateStart
+callback function called on start rotating. Gets arguments: event, dom element, current angle.
 
-#### onRotate: callback function called on rotating. Gets arguments: event, dom element, current angle.
+#### onRotate
+callback function called on rotating. Gets arguments: event, dom element, current angle.
 
-#### onStop: callback function called on stop rotating. Gets arguments: event, dom element, current angle.
+#### onStop
+callback function called on stop rotating. Gets arguments: event, dom element, current angle.
 
-#### canRotate: bool, default `true`, when `false` rotation is disabled.
+#### canRotate
+bool, default `true`, when `false` rotation is disabled.
 
 ## Development
 
