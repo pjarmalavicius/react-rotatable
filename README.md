@@ -13,6 +13,47 @@ Rotatable component implemented with react. Works even element has translate tra
 
 `import 'react-rotatable/css/rotatable.min.css'`
 
+## Example
+
+```
+import Rotatable from 'react-rotatable';
+import 'react-rotatable/css/rotatable.min.css';
+
+class App extends Component {
+  render() {
+    const style = {
+      width: '100px',
+      height: '100px',
+      border: '1px solid black',
+      position: 'absolute',
+      top: '100px',
+      left: '100px',
+    };
+
+    return (
+      <Rotatable>
+        <div style={style}>
+          Rotate me
+        </div>
+      </Rotatable>
+    );
+  }
+}
+
+export default App;
+
+```
+
+## Props
+
+#### onRotateStart: callback function called on start rotating. Gets arguments: event, dom element, current angle.
+
+#### onRotate: callback function called on rotating. Gets arguments: event, dom element, current angle.
+
+#### onStop: callback function called on stop rotating. Gets arguments: event, dom element, current angle.
+
+#### canRotate: bool, default `true`, when `false` rotation is disabled.
+
 ## Development
 
 ```
