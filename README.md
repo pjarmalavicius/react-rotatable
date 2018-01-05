@@ -11,13 +11,13 @@ Rotatable component implemented with react. Works even element has translate tra
 
 #### Add styles
 
-`import 'react-rotatable/css/rotatable.min.css'`
+`import 'react-rotatable/dist/css/rotatable.min.css'`
 
 ## Example
 
 ```
 import Rotatable from 'react-rotatable';
-import 'react-rotatable/css/rotatable.min.css';
+import 'react-rotatable/dist/css/rotatable.min.css';
 
 class App extends Component {
   render() {

@@ -1,6 +1,16 @@
 .DS_Store
 *.log
-src
 test
 examples
 coverage
+.idea
+development
+tools
+.babelrc
+.editorconfig
+.eslintrc
+.gitattributes
+.npmignore
+webpack.config.dev.js
+webpack.config.js
+yarn.lock
