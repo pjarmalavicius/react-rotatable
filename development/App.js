@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Rotatable from '../src';
+import '../src/styles/rotatable.scss';
 
 class App extends Component {
   constructor(props) {
