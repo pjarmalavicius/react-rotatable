@@ -1,6 +1,6 @@
 {
   "name": "react-rotatable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React component to add rotate possibility",
   "main": "dist/index.js",
   "scripts": {
