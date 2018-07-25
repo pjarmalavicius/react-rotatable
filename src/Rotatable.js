@@ -86,8 +86,8 @@ class Rotatable extends Component {
     const bounds = this.rotatable.getBoundingClientRect();
     const centerX = bounds.left + (this.rotatable.clientWidth / 2);
     const centerY = bounds.top + (this.rotatable.clientHeight / 2);
-    const mouseX = e.pageX;
-    const mouseY = e.pageY;
+    const mouseX = e.pageX - (document.documentElement.scrollLeft || document.body.scrollLeft);
+    const mouseY = e.pageY - (document.documentElement.scrollTop || document.body.scrollTop);
     const angleRad = Math.atan2(mouseX - centerX, -(mouseY - centerY));
     const angleDeg = angleRad * ( 180 / Math.PI);
 
